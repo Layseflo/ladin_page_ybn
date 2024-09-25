@@ -1,0 +1,85 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: #f8f8f8;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.logo {
+    height: 100px; /* Ajuster la taille du logo ici */
+}
+
+.search-container {
+    display: flex;
+    align-items: center;
+    margin: 0 auto; /* Centre la barre de recherche */
+}
+
+.search-bar {
+    padding: 5px; /* Ajustement à 5px pour cohérence */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    transition: box-shadow 0.3s;
+}
+
+.search-bar:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sign-in,
+.log-in {
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+
+nav {
+    margin-left: auto; /* Aligne le menu à droite */
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    position: relative;
+    padding: 5px;
+    transition: color 0.3s, box-shadow 0.3s;
+}
+
+nav ul li a:hover {
+    color: #00d9ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    background-color: rgba(0, 123, 255, 0.1);
+    border-radius: 4px;
+}
+
+footer {
+    margin-top: auto;
+    padding: 10px;
+    background: #f8f8f8;
+    text-align: center;
+}
+
